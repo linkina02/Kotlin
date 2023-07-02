@@ -25,7 +25,7 @@ if not exist "%~1" (
 
 @REM del /f /q "%~dpn1.exe" "%~dpn1.msil"
 @REM echo before
-PYTHON "E:\PythonProjects\KotlinCompiler-feature-msil\main.py" --msil-only "%~dpnx1" >"%~dpn1.msil"
+PYTHON "%~dp0\main.py" —msil-only "%~dpnx1" >"%~dpn1.msil"
 @REM echo "%~dpnx1" dpnx1
 @REM echo "%~dpn1.msil" for msil
 @REM echo after
