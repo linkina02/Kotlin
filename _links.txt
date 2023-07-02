@@ -1,0 +1,12 @@
+PyParsing Quick Reference (html):
+http://infohost.nmt.edu/~shipman/soft/pyparsing/web/index.html
+
+PyParsing Quick Reference (pdf):
+http://infohost.nmt.edu/tcc/help/pubs/pyparsing/pyparsing.pdf
+
+Примеры PyParsing:
+http://www.ccp4.ac.uk/dist/checkout/pyparsing-2.0.1/examples/0README.html
+http://www.ccp4.ac.uk/dist/checkout/pyparsing-2.0.1/examples/
+
+Грамматика подмножества С (интересное применение функции operatorPrecedence):
+http://www.ccp4.ac.uk/dist/checkout/pyparsing-2.0.1/examples/oc.py

@@ -1,0 +1,36 @@
+.assembly program
+{
+}
+.class public Program
+{
+  .field public static int32 _gv1
+
+  .method public static void Main()
+  {
+    .entrypoint
+  .locals init ( int32 _gv0)
+    ldc.i4 1
+  stloc.0
+L_0:
+   ldloc.0
+    ldc.i4 1000000000
+   clt
+   brfalse L_1
+   ldloc.0
+   ldc.i4.1
+   add
+   stloc.0
+    ldc.i4 1
+    ldc.i4 1
+    add
+    stsfld int32 Program::_gv1
+    ldsfld int32 Program::_gv1
+call string class CompilerDemo.Runtime::convert(int32)
+call void class CompilerDemo.Runtime::println(string)
+   br L_0
+L_1:
+ret
+}
+}
+
+
